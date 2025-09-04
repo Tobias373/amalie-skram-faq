@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amalie Skram IM-linje FAQ</title>
+    <link rel="stylesheet" href="FAQ.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 Amalie Skram IM-linje FAQ</h1>
+            <p>Finn svar på vanlige spørsmål om Informasjonsteknologi og Medieproduksjon</p>
+        </div>
+
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="🔍 Søk etter spørsmål eller svar..." id="searchInput">
+        </div>
+
+        <div class="filter-container">
+            <button class="filter-btn active" data-category="all">Alle</button>
+            <button class="filter-btn" data-category="skolestart">📚 Skolestart</button>
+            <button class="filter-btn" data-category="programmering">💻 Programmering</button>
+            <button class="filter-btn" data-category="praktisk">🏫 Praktisk info</button>
+            <button class="filter-btn" data-category="it-hjelp">🔧 IT-hjelp</button>
+            <button class="filter-btn" data-category="mat">🍽️ Mat & kaffe</button>
+            <button class="filter-btn" data-category="skolegang">📝 Skolegang</button>
+            <button class="filter-btn" data-category="yrke">🎯 Karriere</button>
+        </div>
+
+        <div id="faqContainer">
+            <!-- Skolestart kategori -->
+            <div class="category" data-category="skolestart">
+                <h2><span class="category-icon">📚</span>Skolestart & Utstyr</h2>
+                
+                <div class="faq-item">
+                    <div class="question">
+                        Trenger jeg egen PC?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Ja, du trenger å kjøpe PC selv.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvilke programmer trenger jeg på maskinen?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Som IM-elev bruker du ofte Adobe Creative Cloud (Photoshop, Premiere Pro, Illustrator), samt utviklingsverktøy som VS Code. Skolen hjelper deg med installasjon.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvordan får jeg tilgang til Adobe-programmene?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Logg inn med skolens e-post i Adobe Creative Cloud. Husk å velge Enterprise Account hvis du får spørsmål.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Må jeg kjøpe programvare selv, f.eks. Adobe-pakken?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Som oftest trenger du aldri å kjøpe programvare selv sånn som adobe pakken.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvor finner jeg oppgaver og innleveringer?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            De fleste lærere bruker læringsplattformen, som Teams eller Itslearning. Sjekk der først.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programmering kategori -->
+            <div class="category" data-category="programmering">
+                <h2><span class="category-icon">💻</span>Programmering & Utvikling</h2>
+                
+                <div class="faq-item">
+                    <div class="question">
+                        Må man kunne programmering fra før?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Nei, du lærer alt fra start, så det går fint om du er helt nybegynner.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvilket programmeringsspråk lærer man i VG1?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            På VG1 lærer man HTML, CSS og JavaScript.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvor mye koding er det på IM?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            En god del, spesielt i programmeringsfaget. Vanlige språk inkluderer HTML, CSS, JavaScript og litt SQL.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hva er det beste stedet å gå for å lære koding eller få hjelp med koding?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Du kan bruke W3Schools, søke på Google, eller spørre ChatGPT.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Praktisk info kategori -->
+            <div class="category" data-category="praktisk">
+                <h2><span class="category-icon">🏫</span>Praktisk informasjon</h2>
+                
+                <div class="faq-item">
+                    <div class="question">
+                        Hvor tid kan jeg besøke skolen?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Skolen er åpen for elever fra kl 06:00 til 21:00.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvor er printeren på skolen?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Printeren er ved siden av biblioteket i 4 etasje. Det er også en i 5. etasje men den er dårlig.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvilke bøker kan jeg låne fra biblioteket?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Du kan låne alle bøkene som er tilgjengelige, så lenge du har signert låneavtalen og har med lånekortet (PocketID).
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Når får vi bruke kamera/utstyr fra medielageret?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Du kan låne utstyr etter avtale med faglærer og media lærlingene på skolen. Husk å levere tilbake i tide og i samme stand.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvor ser jeg på julestreamen til IM-linjen?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Inne på Twitch kanalen deres (https://www.twitch.tv/im_amalieskram).
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IT-hjelp kategori -->
+            <div class="category" data-category="it-hjelp">
+                <h2><span class="category-icon">🔧</span>IT-hjelp & Systemer</h2>
+                
+                <div class="faq-item">
+                    <div class="question">
+                        Hvor ligger IT-avdelingen?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Den ligger i 4. etasje, ved lærerkontorene til høyre. Den er også ved siden av printeren.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Kan jeg installere egne programmer på skolens PC?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Ja, du kan installere egne programmer, men enkelte programmer kan være forbudt under eksamen.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvor kan du finne programvarer på nett?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Du kan finne de fleste programvarer som du trenger på skoleportalen.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvordan får jeg tilgang til Itslearning, Visma InSchool og skolens digitale systemer?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Du kan enten gå inn på skoleportalen og søke opp Itslearning eller Visma, som sender deg til innloggingssiden hvor du må logge inn med Feide og velge Vestland fylkeskommune. Du kan også laste ned mobilappene.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hva skal jeg gjøre om jeg har problemer med datamaskinen/apper?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Gå til ITK i 4. etasje, søk opp problemet på nett og/eller spør en medelev.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mat & kaffe kategori -->
+            <div class="category" data-category="mat">
+                <h2><span class="category-icon">🍽️</span>Mat & Kaffe</h2>
+                
+                <div class="faq-item">
+                    <div class="question">
+                        Har vi kantine på skolen?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Ja! Den ligger på enden av bygget med utgangen motsatt side av AdO.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Kan jeg kjøpe kaffe her?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Jepsi pepsi! Det kan du! Dra til Kaffe Diém.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvor er Kaffe Diém?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Kaffe Diém er på nord-vest siden av 3. etasje. Gå opp trappen og så til venstre.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvor finner jeg kantinen, og hvilke mattilbud finnes på skolen?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Kantinen ligger bak i andre etasje og er åpen fra 07:00 til 14:30. Kantinen tilbyr gratis frokost fra 07:45 til 08:15 utenom tirsdager hvor det er fra 09:15 til 09:45.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skolegang kategori -->
+            <div class="category" data-category="skolegang">
+                <h2><span class="category-icon">📝</span>Skolegang & Fravær</h2>
+                
+                <div class="faq-item">
+                    <div class="question">
+                        Hvordan fungerer timeplanen på Amalie Skram?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Timeplanen ligger på Visma InSchool som du kan finne på skoleportalen. Den er delt i tre typer: Uke A, B og C. Som oftest veksler det mellom A og B uke hver uke, men av og til endrer det seg til C-uke, så det er viktig å passe på hvilken uke det er på Visma.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvordan fungerer den nye fraværsgrensen?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Du kan ha opptil 10% fravær per fag. Fravær innenfor disse 10% kan dekkes med egenmelding ved sykdom. Fravær over 10% må dokumenteres med legeerklæring.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvor skal du melde fravær?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            På Visma med dokumentasjon på hvorfor du er borte.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Er det mye lekser?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Nei, det er ikke mye lekser, så lenge du gjør arbeidet ditt på skolen.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvor ser man karakterene/vurderingene sine?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Disse finner man i Visma InSchool, under kategorien «Vurderinger». Her får du oversikt over karakterene fra de forrige halvårene + noen underveis vurderinger i dette halvåret.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvordan funker studietid?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Studietid er et slags «leksehjelp», hvor man kan sitte igjen etter skolen og jobbe med fagene. Du kan bruke hele bygget, og noen lærere kommer til å være tilgjengelige der. På slutten av skoleåret kan du også søke om å fjerne fravær fra vitnemålet med antall timer du har vært på studietid.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Karriere kategori -->
+            <div class="category" data-category="yrke">
+                <h2><span class="category-icon">🎯</span>Karriere & Framtid</h2>
+                
+                <div class="faq-item">
+                    <div class="question">
+                        Hvilke yrker kan jeg få fra IM?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            IT-driftsteknikker, IT-utvikler, Mediedesigner, Innholdsprodusent. Se utdanning.no for flere eksempler.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Hvem er rådgiveren på yrkesfag?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Frode Sæthre.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="question">
+                        Må jeg vite hvordan å kode eller ta bilder/redigere før skolen begynner?
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="answer">
+                        <div class="answer-content">
+                            Nei. Du trenger ikke å vite hvordan å kode eller ulike medieferdigheter før skolen begynner.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="noResults" class="no-results hidden">
+            <h3>Ingen resultater funnet</h3>
+            <p>Prøv å endre søkeordet eller velg en annen kategori</p>
+        </div>
+    </div>
+
+    <script>
+        const searchInput = document.getElementById('searchInput');
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const faqContainer = document.getElementById('faqContainer');
+        const noResults = document.getElementById('noResults');
+        const faqItems = document.querySelectorAll('.faq-item');
+        const categories = document.querySelectorAll('.category');
+
+        // Toggle FAQ items
+        faqItems.forEach(item => {
+            const question = item.querySelector('.question');
+            question.addEventListener('click', () => {
+                item.classList.toggle('active');
+            });
+        });
+
+        // Search functionality
+        function performSearch() {
+            const searchTerm = searchInput.value.toLowerCase().trim();
+            const activeCategory = document.querySelector('.filter-btn.active').dataset.category;
+            let hasVisibleItems = false;
+
+            categories.forEach(category => {
+                const categoryType = category.dataset.category;
+                let categoryHasVisibleItems = false;
+
+                // Check if category should be shown based on filter
+                if (activeCategory !== 'all' && activeCategory !== categoryType) {
+                    category.classList.add('hidden');
+                    return;
+                }
+
+                const items = category.querySelectorAll('.faq-item');
+                items.forEach(item => {
+                    const question = item.querySelector('.question').textContent.toLowerCase();
+                    const answer = item.querySelector('.answer-content').textContent.toLowerCase();
+                    
+                    if (searchTerm === '' || question.includes(searchTerm) || answer.includes(searchTerm)) {
+                        item.classList.remove('hidden');
+                        categoryHasVisibleItems = true;
+                        hasVisibleItems = true;
+                    } else {
+                        item.classList.add('hidden');
+                    }
+                });
+
+                if (categoryHasVisibleItems) {
+                    category.classList.remove('hidden');
+                } else {
+                    category.classList.add('hidden');
+                }
+            });
+
+            // Show/hide no results message
+            if (hasVisibleItems) {
+                faqContainer.classList.remove('hidden');
+                noResults.classList.add('hidden');
+            } else {
+                faqContainer.classList.add('hidden');
+                noResults.classList.remove('hidden');
+            }
+        }
+
+        // Event listeners
+        searchInput.addEventListener('input', performSearch);
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                performSearch();
+            });
+        });
+
+        // Initial load
+        performSearch();
+    </script>
+</body>
+</html>
